@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magna Carta: Voices Against Absolute Power</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Magna Carta home">Magna Carta</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#thesis">Thesis</a>
+        <a href="#voices">Voices</a>
+        <a href="#turning-points">Timeline</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/1280px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg"
+            alt=""
+            width="1280"
+            height="853"
+          />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">National History Competition | Theme: Voices</p>
+          <h1 id="hero-title">Magna Carta</h1>
+          <p class="hero-subtitle">
+            The 1215 charter that turned a royal command into a recorded argument:
+            who gets heard, who gets protected, and who can hold power accountable.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#voices">Hear the voices</a>
+            <a class="secondary-action" href="#thesis">Read the argument</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" id="thesis">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Central argument</p>
+            <h2>A forced conversation between ruler and realm</h2>
+          </div>
+          <div class="lead-panel">
+            <p>
+              Magna Carta did not create democracy in one day. It began as a
+              peace settlement between King John and rebel barons, shaped by
+              church leadership and written in legal Latin. Its deeper
+              importance is that it preserved a new political voice: even a king
+              could be challenged by law.
+            </p>
+            <p>
+              The charter also reveals silence. Most peasants, women, and poor
+              townspeople did not speak for themselves in the document. A strong
+              project should show both sides: the voices powerful enough to be
+              written down, and the people left outside the parchment.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section voices-section" id="voices">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Interactive exhibit</p>
+            <h2>Whose voices shaped Magna Carta?</h2>
+            <p>
+              Select a voice to see what each group wanted, what it gained, and
+              what its limits reveal about medieval power.
+            </p>
+          </div>
+
+          <div class="voice-layout">
+            <div class="voice-tabs" role="tablist" aria-label="Voices in Magna Carta">
+              <button class="voice-tab active" type="button" role="tab" aria-selected="true" data-voice="barons">
+                Rebel barons
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="king">
+                King John
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="church">
+                Church leaders
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="towns">
+                Towns and merchants
+              </button>
+              <button class="voice-tab" type="button" role="tab" aria-selected="false" data-voice="silenced">
+                Unheard people
+              </button>
+            </div>
+
+            <article class="voice-card" aria-live="polite">
+              <p class="voice-label" id="voice-label">Voice of resistance</p>
+              <h3 id="voice-title">Rebel barons demanded limits on the Crown.</h3>
+              <p id="voice-body">
+                After King John lost territory in France and raised heavy feudal
+                payments, many barons pushed back. Magna Carta protected elite
+                property rights, limited certain payments to the Crown, and
+                created a council of twenty-five barons to pressure the king to
+                obey the agreement.
+              </p>
+              <div class="voice-insight">
+                <span>What this shows</span>
+                <p id="voice-insight">
+                  The loudest medieval political voices often belonged to people
+                  who already had land, rank, and military power.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section clause-band">
+        <div class="section-inner clause-grid">
+          <div>
+            <p class="section-kicker">The legal voice</p>
+            <h2>The charter turned protest into written limits.</h2>
+          </div>
+          <div class="clause-list" aria-label="Important ideas from Magna Carta">
+            <div>
+              <strong>Due process</strong>
+              <p>Free people could not be imprisoned or dispossessed without lawful judgment.</p>
+            </div>
+            <div>
+              <strong>Justice</strong>
+              <p>The Crown promised not to sell, deny, or delay access to justice.</p>
+            </div>
+            <div>
+              <strong>Consent</strong>
+              <p>Certain feudal payments required broader agreement instead of royal will alone.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="turning-points">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-kicker">Turning points</p>
+            <h2>From crisis document to lasting symbol</h2>
+          </div>
+          <div class="timeline">
+            <button class="timeline-item active" type="button" data-year="1204">
+              <span>1204</span>
+              John loses Normandy, weakening his authority and increasing pressure for money.
+            </button>
+            <button class="timeline-item" type="button" data-year="1214">
+              <span>1214</span>
+              Military failure in France deepens baronial anger at royal taxation.
+            </button>
+            <button class="timeline-item" type="button" data-year="1215">
+              <span>June 1215</span>
+              At Runnymede, King John accepts Magna Carta as a peace settlement.
+            </button>
+            <button class="timeline-item" type="button" data-year="1216">
+              <span>1216</span>
+              The charter is reissued after John's death, helping it survive the civil war.
+            </button>
+            <button class="timeline-item" type="button" data-year="1297">
+              <span>1297</span>
+              Edward I confirms a version of Magna Carta as part of English statute law.
+            </button>
+          </div>
+          <aside class="timeline-detail" aria-live="polite">
+            <p class="detail-year" id="detail-year">1204</p>
+            <h3 id="detail-title">A king under pressure</h3>
+            <p id="detail-body">
+              John lost Normandy to the French king, which hurt his reputation
+              and made future military campaigns expensive. The demand for money
+              became one of the roots of baronial resistance.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section legacy-section" id="legacy">
+        <div class="section-inner legacy-layout">
+          <div>
+            <p class="section-kicker">Historical significance</p>
+            <h2>Magna Carta became louder over time.</h2>
+            <p>
+              In 1215, Magna Carta was narrow and feudal. Centuries later, lawyers,
+              colonists, reformers, and judges used its memory to argue that
+              government must answer to law. Its meaning grew because later
+              generations kept giving the document a new voice.
+            </p>
+          </div>
+          <div class="legacy-stats" aria-label="Magna Carta facts">
+            <div>
+              <span>4</span>
+              <p>surviving 1215 originals</p>
+            </div>
+            <div>
+              <span>63</span>
+              <p>modern numbered clauses</p>
+            </div>
+            <div>
+              <span>800+</span>
+              <p>years of influence and reinterpretation</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section project-section">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Competition focus</p>
+            <h2>How this connects to "Voices"</h2>
+          </div>
+          <div class="project-points">
+            <p>
+              <strong>Conflict:</strong> Magna Carta records a struggle over who
+              could speak against royal power.
+            </p>
+            <p>
+              <strong>Power:</strong> The barons had enough force to make their
+              voice matter, while many ordinary people remained unheard.
+            </p>
+            <p>
+              <strong>Legacy:</strong> Later generations amplified selected
+              clauses into a broader voice for rule of law and due process.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sources-section" id="sources">
+        <div class="section-inner">
+          <div class="section-heading compact">
+            <p class="section-kicker">Works cited starter</p>
+            <h2>Sources to cite</h2>
+          </div>
+          <div class="sources-list">
+            <a href="https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg" target="_blank" rel="noreferrer">
+              Wikimedia Commons / British Library image: 1215 Magna Carta, Cotton MS Augustus II.106
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Magna_Carta" target="_blank" rel="noreferrer">
+              "Magna Carta." Wikipedia, overview and references
+            </a>
+            <a href="https://avalon.law.yale.edu/medieval/magframe.asp" target="_blank" rel="noreferrer">
+              Yale Law School Avalon Project: Magna Carta text
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Designed for a history competition website on the theme "Voices."</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
