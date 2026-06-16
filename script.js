@@ -1,6 +1,6 @@
 const voices = {
   barons: {
-    label: "Voice of resistance",
+    label: "Voice of resistane",
     title: "Rebel barons demanded limits on the Crown.",
     body:
       "After King John lost territory in France and raised heavy feudal payments, many barons pushed back. Magna Carta protected elite property rights, limited certain payments to the Crown, and created a council of twenty-five barons to pressure the king to obey the agreement.",
