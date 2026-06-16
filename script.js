@@ -1,43 +1,43 @@
 const voices = {
   barons: {
-    label: "Voice of the barons",
-    title: "Rebel barons demanded limits on the Crown and restricted governance.",
+    label: "Voice of resistance",
+    title: "Rebel barons demanded limits on the Crown.",
     body:
-      "After King John lost vital territories in France, losing nearly all the Plantagenent lands in Northern France, he raised heavy feudal payments like scutage and military service. Many barons pushed back. Magna Carta protected elite property rights, limited certain payments to the Crown, and created a council of twenty-five barons to pressure the king to obey the agreement. This coalition was known as the 25 'Surety' Barons.",
+      "After King John lost territory in France and raised heavy feudal payments, many barons pushed back. Magna Carta protected elite property rights, limited certain payments to the Crown, and created a council of twenty-five barons to pressure the king to obey the agreement.",
     insight:
-      "The loudest voices often belonged to people who already had land, rank, and military power. These were the barons and nobles.",
+      "The loudest medieval political voices often belonged to people who already had land, rank, and military power.",
   },
-  king:
+  king: {
     label: "Voice of monarchy",
-    title: "King John accepted the charter under pressure from the barons and the Church.",
+    title: "King John accepted the charter under pressure.",
     body:
-      "John did not want to grant Magna Carta to maintain his power. He faced rebellion, military weakness, and a crisis of legitimacy. His voice in the document is defensive, as he is a ruler trying to preserve power by making promises.",
+      "John did not grant Magna Carta because he suddenly believed in shared government. He faced rebellion, military weakness, and a crisis of legitimacy. His voice in the document is defensive: a ruler trying to preserve power by making promises.",
     insight:
-      "John's signing of the Magna Carta shows that royal authority could be forced into negotiation when political pressure and rebellion became strong enough.",
-  }
+      "Magna Carta shows that royal authority could be forced into negotiation when political pressure became strong enough.",
+  },
   church: {
     label: "Voice of mediation",
-    title: "The Church - the Pope and Archbishop - helped turn demands and grief into a systematic Charter.",
+    title: "Church leaders helped turn demands into a charter.",
     body:
       "Archbishop Stephen Langton played a major role in shaping the settlement. The charter opens by protecting the freedom of the English Church, showing that religious authority was not separate from politics in medieval England.",
     insight:
-      "The church's influence on the Magna Carta's signing gave the Magna Carta reason, morality and religious obligation.",
+      "The church gave the conflict a language of law, oath, and moral obligation.",
   },
   towns: {
-    label: "Voice of the towns",
-    title: "Towns and merchants wanted more stable and fair rules.",
+    label: "Voice of commerce",
+    title: "Towns and merchants sought stable rules.",
     body:
-      "Magna Carta included protections for London and other towns, plus concern for weights, measures, and trade. These clauses mattered because disorder and arbitrary fees damaged trade and commerce.",
+      "Magna Carta included protections for London and other towns, plus concern for weights, measures, and trade. These clauses mattered because disorder and arbitrary fees could damage commerce.",
     insight:
-      "Voices which contributed to the economy were prevalent, but usually through corporate privileges rather than rights that protected individuals.",
+      "Economic voices were present, but usually through corporate privileges rather than modern individual rights.",
   },
   silenced: {
     label: "Voice of absence",
-    title: "Many people affected by the corrupted power were not represented.",
+    title: "Many people affected by power were not represented.",
     body:
-      "Most peasants, women, laborers, and poor townspeople were not part of the negotiatiation the charter. Some clauses improved their lives by a little, indirectly, but Magna Carta primarily spoke for elites and free people within a feudal society.",
+      "Most peasants, women, laborers, and poor townspeople did not negotiate the charter. Some clauses touched their lives indirectly, but Magna Carta primarily spoke for elites and free people within a feudal society.",
     insight:
-      "Although the Magna Carta protected the rights of people, it impacted a limited amount of people, particularly the common people who were also impacted by the corruption of King John.",
+      "The silences are part of the story: whose rights become law depends on who has the power to be heard.",
   },
 };
 
